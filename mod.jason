@@ -1,0 +1,23 @@
+{
+  "geode": "5.11.2",
+  "gd": { "win": "2.2081" },
+  "version": "v1.0.0",
+  "id": "tuusuario.framesnap",
+  "name": "FrameSnap",
+  "developer": "tuusuario",
+  "description": "Alinea tus clicks al primer frame en que se pueden aplicar.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Activado",
+      "default": true
+    },
+    "window-ms": {
+      "type": "int",
+      "name": "Ventana (ms)",
+      "default": 80,
+      "min": 10,
+      "max": 200
+    }
+  }
+}
